@@ -7,15 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		981D9573288EDA7B00D8E026 /* SessionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D9572288EDA7B00D8E026 /* SessionComponent.swift */; };
+		981D9575288EDE7700D8E026 /* SessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D9574288EDE7700D8E026 /* SessionModel.swift */; };
+		981D9579288F93D800D8E026 /* SessionStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D9578288F93D800D8E026 /* SessionStartView.swift */; };
+		981D957D288F99F600D8E026 /* AccordionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D957C288F99F600D8E026 /* AccordionComponent.swift */; };
+		981D957F288FCD5500D8E026 /* MultiPickerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D957E288FCD5500D8E026 /* MultiPickerComponent.swift */; };
+		981D9581288FCEF000D8E026 /* UIPickerViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D9580288FCEF000D8E026 /* UIPickerViewExtension.swift */; };
+		981D9583288FE4B800D8E026 /* SessionTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D9582288FE4B800D8E026 /* SessionTimerView.swift */; };
+		981D9585288FE77400D8E026 /* CircularProgressBarComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D9584288FE77400D8E026 /* CircularProgressBarComponent.swift */; };
+		981D958728918BC000D8E026 /* BreakTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D958628918BC000D8E026 /* BreakTimerView.swift */; };
+		981D958928922C8300D8E026 /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D958828922C8300D8E026 /* NotificationHandler.swift */; };
+		981D958B28923A2000D8E026 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D958A28923A2000D8E026 /* AppDelegate.swift */; };
+		981D958D2892D2F000D8E026 /* SessionSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981D958C2892D2F000D8E026 /* SessionSummaryView.swift */; };
+		983B77A32892FFD0003DC2A4 /* TodayTotalSessionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B77A22892FFD0003DC2A4 /* TodayTotalSessionComponent.swift */; };
+		989873B52892D93600F9E736 /* CapsuleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989873B42892D93600F9E736 /* CapsuleComponent.swift */; };
 		98A72D55288E439B0011DD20 /* Code_BudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A72D54288E439B0011DD20 /* Code_BudApp.swift */; };
 		98A72D57288E439B0011DD20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A72D56288E439B0011DD20 /* ContentView.swift */; };
 		98A72D59288E439D0011DD20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A72D58288E439D0011DD20 /* Assets.xcassets */; };
 		98A72D5C288E439D0011DD20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A72D5B288E439D0011DD20 /* Preview Assets.xcassets */; };
 		98A72D5E288E439D0011DD20 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A72D5D288E439D0011DD20 /* Persistence.swift */; };
 		98A72D61288E439D0011DD20 /* Code_Bud.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98A72D5F288E439D0011DD20 /* Code_Bud.xcdatamodeld */; };
+		98A72D68288EA4B70011DD20 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A72D67288EA4B70011DD20 /* HomeView.swift */; };
+		98A72D6B288EB7550011DD20 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A72D6A288EB7550011DD20 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		981D9572288EDA7B00D8E026 /* SessionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionComponent.swift; sourceTree = "<group>"; };
+		981D9574288EDE7700D8E026 /* SessionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionModel.swift; sourceTree = "<group>"; };
+		981D9578288F93D800D8E026 /* SessionStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStartView.swift; sourceTree = "<group>"; };
+		981D957C288F99F600D8E026 /* AccordionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionComponent.swift; sourceTree = "<group>"; };
+		981D957E288FCD5500D8E026 /* MultiPickerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPickerComponent.swift; sourceTree = "<group>"; };
+		981D9580288FCEF000D8E026 /* UIPickerViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPickerViewExtension.swift; sourceTree = "<group>"; };
+		981D9582288FE4B800D8E026 /* SessionTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionTimerView.swift; sourceTree = "<group>"; };
+		981D9584288FE77400D8E026 /* CircularProgressBarComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarComponent.swift; sourceTree = "<group>"; };
+		981D958628918BC000D8E026 /* BreakTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakTimerView.swift; sourceTree = "<group>"; };
+		981D958828922C8300D8E026 /* NotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
+		981D958A28923A2000D8E026 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		981D958C2892D2F000D8E026 /* SessionSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSummaryView.swift; sourceTree = "<group>"; };
+		983B77A22892FFD0003DC2A4 /* TodayTotalSessionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTotalSessionComponent.swift; sourceTree = "<group>"; };
+		989873B42892D93600F9E736 /* CapsuleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleComponent.swift; sourceTree = "<group>"; };
 		98A72D51288E439B0011DD20 /* Code Bud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code Bud.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98A72D54288E439B0011DD20 /* Code_BudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_BudApp.swift; sourceTree = "<group>"; };
 		98A72D56288E439B0011DD20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +53,8 @@
 		98A72D5B288E439D0011DD20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		98A72D5D288E439D0011DD20 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		98A72D60288E439D0011DD20 /* Code_Bud.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Code_Bud.xcdatamodel; sourceTree = "<group>"; };
+		98A72D67288EA4B70011DD20 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		98A72D6A288EB7550011DD20 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +68,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		981D9570288EDA2F00D8E026 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				98A72D6A288EB7550011DD20 /* ColorExtension.swift */,
+				981D9580288FCEF000D8E026 /* UIPickerViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		981D9571288EDA6100D8E026 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				981D9572288EDA7B00D8E026 /* SessionComponent.swift */,
+				981D957C288F99F600D8E026 /* AccordionComponent.swift */,
+				981D957E288FCD5500D8E026 /* MultiPickerComponent.swift */,
+				981D9584288FE77400D8E026 /* CircularProgressBarComponent.swift */,
+				989873B42892D93600F9E736 /* CapsuleComponent.swift */,
+				983B77A22892FFD0003DC2A4 /* TodayTotalSessionComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		98A72D48288E439B0011DD20 = {
 			isa = PBXGroup;
 			children = (
@@ -55,11 +109,17 @@
 		98A72D53288E439B0011DD20 /* Code Bud */ = {
 			isa = PBXGroup;
 			children = (
+				981D958828922C8300D8E026 /* NotificationHandler.swift */,
+				981D958A28923A2000D8E026 /* AppDelegate.swift */,
+				981D9570288EDA2F00D8E026 /* Extensions */,
+				981D9571288EDA6100D8E026 /* Components */,
+				98A72D69288EA4C00011DD20 /* Views */,
 				98A72D54288E439B0011DD20 /* Code_BudApp.swift */,
 				98A72D56288E439B0011DD20 /* ContentView.swift */,
 				98A72D58288E439D0011DD20 /* Assets.xcassets */,
 				98A72D5D288E439D0011DD20 /* Persistence.swift */,
 				98A72D5F288E439D0011DD20 /* Code_Bud.xcdatamodeld */,
+				981D9574288EDE7700D8E026 /* SessionModel.swift */,
 				98A72D5A288E439D0011DD20 /* Preview Content */,
 			);
 			path = "Code Bud";
@@ -71,6 +131,18 @@
 				98A72D5B288E439D0011DD20 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98A72D69288EA4C00011DD20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				98A72D67288EA4B70011DD20 /* HomeView.swift */,
+				981D9578288F93D800D8E026 /* SessionStartView.swift */,
+				981D9582288FE4B800D8E026 /* SessionTimerView.swift */,
+				981D958628918BC000D8E026 /* BreakTimerView.swift */,
+				981D958C2892D2F000D8E026 /* SessionSummaryView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +215,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				981D957D288F99F600D8E026 /* AccordionComponent.swift in Sources */,
+				981D9575288EDE7700D8E026 /* SessionModel.swift in Sources */,
+				989873B52892D93600F9E736 /* CapsuleComponent.swift in Sources */,
+				981D9579288F93D800D8E026 /* SessionStartView.swift in Sources */,
 				98A72D5E288E439D0011DD20 /* Persistence.swift in Sources */,
 				98A72D57288E439B0011DD20 /* ContentView.swift in Sources */,
+				981D9583288FE4B800D8E026 /* SessionTimerView.swift in Sources */,
+				983B77A32892FFD0003DC2A4 /* TodayTotalSessionComponent.swift in Sources */,
+				981D958728918BC000D8E026 /* BreakTimerView.swift in Sources */,
 				98A72D61288E439D0011DD20 /* Code_Bud.xcdatamodeld in Sources */,
+				981D958D2892D2F000D8E026 /* SessionSummaryView.swift in Sources */,
+				981D957F288FCD5500D8E026 /* MultiPickerComponent.swift in Sources */,
+				981D958928922C8300D8E026 /* NotificationHandler.swift in Sources */,
+				981D9585288FE77400D8E026 /* CircularProgressBarComponent.swift in Sources */,
+				98A72D6B288EB7550011DD20 /* ColorExtension.swift in Sources */,
+				98A72D68288EA4B70011DD20 /* HomeView.swift in Sources */,
+				981D9573288EDA7B00D8E026 /* SessionComponent.swift in Sources */,
 				98A72D55288E439B0011DD20 /* Code_BudApp.swift in Sources */,
+				981D958B28923A2000D8E026 /* AppDelegate.swift in Sources */,
+				981D9581288FCEF000D8E026 /* UIPickerViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
